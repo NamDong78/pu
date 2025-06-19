@@ -1,0 +1,45 @@
+2025-06-19 08:56:32.637504Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S04 not found); SQL statement:
+SELECT * FROM grave; [42104-232]
+2025-06-19 08:56:32.685389Z jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE hologram ADD COLUMN IF NOT EXISTS uuid_entity VARCHAR(255) [42102-232]
+2025-06-19 08:56:32.691348Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE itemframe ADD COLUMN IF NOT EXISTS uuid_entity VARCHAR(255) [42102-232]
+2025-06-19 08:56:32.691667Z jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE itemframe ADD COLUMN IF NOT EXISTS location VARCHAR(255) [42102-232]
+2025-06-19 08:56:32.693570Z jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE itemframe ADD COLUMN IF NOT EXISTS uuid_grave VARCHAR(255) [42102-232]
+2025-06-19 09:09:20.262259Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-06-19 09:33:38.029767Z jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-06-19 09:35:07.193212Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-06-19 09:37:22.896945Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
+2025-06-19 09:44:43.208112Z jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
